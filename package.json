@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "serve": "nuxt -p 80",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -17,6 +18,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@nuxtjs/router": "^1.7.0",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.4.4"
   }

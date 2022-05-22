@@ -1,9 +1,11 @@
 <template>
-  <Tutorial/>
+  <div class="w-full bg-blue-100 h-screen flex justify-center items-center">
+    <h1 class="text-6xl font-bold">Home</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+  name: "IndexPage",
+};
 </script>
