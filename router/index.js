@@ -11,8 +11,8 @@ export function createRouter(ssrContext, createDefaultRouter, routerOptions) {
   });
 
   function allRouts(defaultRoutes, hostname) {
-    if (hostname.includes("demo")) return subdomains(defaultRoutes, "domain1");
-    if (hostname.includes("live")) return subdomains(defaultRoutes, "domain2");
+    if (hostname.includes("site1")) return subdomains(defaultRoutes, "domain1");
+    if (hostname.includes("site2")) return subdomains(defaultRoutes, "domain2");
     return rootdomain(defaultRoutes);
   }
 
